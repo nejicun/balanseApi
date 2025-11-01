@@ -84,7 +84,7 @@
     <h1>Управление балансом</h1>
 
     <div class="container">
-        <!-- Список пользователей -->
+    
         <div class="users-list">
             <h3>Пользователи</h3>
             @foreach($users as $user)
@@ -94,7 +94,7 @@
             @endforeach
         </div>
 
-        <!-- Центральная панель -->
+
         <div class="main-panel">
             <div class="selected-user" id="selectedUser">
                 <p>Выберите пользователя</p>

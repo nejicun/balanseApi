@@ -31,8 +31,9 @@ cd balanseApi
 ```
 ### 2. Запуск окружения
 ```bash 
-docker-compose up -d
-docker-compose exec app composer install
+docker compose up -d --build
+docker compose exec app composer install
+docker compose exec app php artisan key:generate
 ```
 ### 3. Применение миграций и заполнение тестовыми данными
 ```bash 

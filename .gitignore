@@ -1,5 +1,4 @@
 # Laravel
-.env
 .env.example
 /vendor/
 /storage/
