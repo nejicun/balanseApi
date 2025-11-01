@@ -1,0 +1,25 @@
+# Laravel
+.env
+.env.example
+/vendor/
+/storage/
+/bootstrap/cache/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
