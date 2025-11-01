@@ -32,6 +32,7 @@ cd balanseApi
 ### 2. Запуск окружения
 ```bash 
 docker-compose up -d
+docker-compose exec app composer install
 ```
 ### 3. Применение миграций и заполнение тестовыми данными
 ```bash 
@@ -54,4 +55,5 @@ docker-compose exec app php artisan test
  - PostgreSQL 15
  - Nginx
  - Docker Compose (минималистичная сборка без Laradock)
+
  - PHPUnit — 16 feature-тестов, 100% покрытие бизнес-логики
